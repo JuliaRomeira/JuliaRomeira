@@ -50,6 +50,9 @@
 
 <div align="left">
   <a href="mailto:Juliaromeiralage@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-0077B5?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="E-mail">
+    <img src="https://img.shields.io/badge/-Email-black?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="E-mail">
+  </a>
+  <a href="https://www.linkedin.com/in/juliaromeira">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=black&logoColor=white&style=for-the-badge" alt="LinkedIn">
   </a>
 </div>
