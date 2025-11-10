@@ -28,7 +28,7 @@
 
 #  **Minhas Tecnologias**
 
-<img width="300" src="https://skillicons.dev/icons?i=js,nodejs,git,github"/>
+<img width="300" src="https://skillicons.dev/icons?i=java,git,github"/>
 
 <div>
 <img loading="lazy" height="150" src="https://github-readme-stats.vercel.app/api?username=JuliaRomeira&theme=midnight-purple&show_icons=true)"/>
