@@ -14,21 +14,21 @@
 
 #  **Sobre mim**
 
-- <img width="30" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Hand%20with%20Fingers%20Splayed%20Light%20Skin%20Tone.png"> **Olá! Eu sou a Júlia, estudante de Tecnologia da Informação (TI), atualmente no 1º semestre da faculdade.**
+- <img width="30" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Hand%20with%20Fingers%20Splayed%20Light%20Skin%20Tone.png"> **Olá! Eu sou a Júlia, estudante de Tecnologia da Informação (TI), no momento estou no 2º semestre da faculdade.**
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Graduation%20Cap.webp" alt="Graduation Cap" width="25" height="25" />**Estou me dedicando ao desenvolvimento full stack, focando em aplicar JavaScript de forma prática, enquanto exploro conceitos de back-end, incluindo Node.js, APIs e lógica de programação avançada, para criar soluções completas e funcionais.**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Graduation%20Cap.webp" alt="Graduation Cap" width="25" height="25" />**Atualmente, estou me especializando em desenvolvimento Back-end, com ênfase na aplicação prática de Java e no uso de tecnologias como Spring Boot e MySQL, além do estudo de estruturas de algoritmos avançadas, visando o desenvolvimento de soluções robustas e escaláveis.**
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> **Busco constantemente aprimorar minhas habilidades, desenvolver projetos práticos e registrar minha evolução como programadora.**
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Books.webp" alt="Books" width="25" height="25" /> **Sou apaixonada por resolver problemas, criar soluções funcionais e aprender novas tecnologias, sempre buscando aplicar conhecimento teórico na prática.**
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" /> **Meu objetivo é conquistar oportunidades de estágio, colaborar com equipes, adquirir novos conhecimentos e evoluir profissionalmente na área de tecnologia.**  
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" /> **Meu objetivo é conquistar novas oportunidades profissionais, colaborar com equipes, ampliar meus conhecimentos e evoluir continuamente na área de tecnologia.**  
 
 ---
 
 #  **Minhas Tecnologias**
 
-<img width="300" src="https://skillicons.dev/icons?i=java,eclipse,git,github"/>
+<img width="300" src="https://skillicons.dev/icons?i=java,spring,mysql,eclipse,git,github"/>
 
 ---
 
