@@ -30,13 +30,15 @@
 
 <img width="300" src="https://skillicons.dev/icons?i=java,eclipse,git,github"/>
 
+---
+
 <div>
 <img loading="lazy" height="150" src="https://github-readme-stats.vercel.app/api?username=JuliaRomeira&theme=midnight-purple&show_icons=true)"/>
 </div>
 
 ---
 
-# **Entre em contato comigo**
+# **Conecte-se comigo**
 
 
 <div align="left">
@@ -47,7 +49,7 @@
 
 ---
 
-# **Conecte-se comigo**
+# **Entre em contato comigo** 
 
 <div align="left">
   <a href="mailto:Juliaromeiralage@gmail.com">
