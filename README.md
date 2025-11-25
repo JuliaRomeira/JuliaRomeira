@@ -7,7 +7,7 @@
 </p>
 
 <h2 align="center"> 
- • Back-end Developer <img width="25" src="https://registry.npmmirror.com/@lobehub/fluent-emoji-anim-3/latest/files/assets/1f680.webp"> •
+ • Back-end <img width="25" src="https://registry.npmmirror.com/@lobehub/fluent-emoji-anim-3/latest/files/assets/1f680.webp"> •
 </h2>
 
 ---
