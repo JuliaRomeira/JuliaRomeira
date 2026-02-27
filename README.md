@@ -28,7 +28,7 @@
 
 #  **Minhas Tecnologias**
 
-<img width="300" src="https://skillicons.dev/icons?i=java,spring,mysql,eclipse,git,github"/>
+<img width="300" src="https://skillicons.dev/icons?i=java,spring,mysql,intellij,git,github"/>
 
 ---
 
