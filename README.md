@@ -14,9 +14,9 @@
 
 #  **Sobre mim**
 
-- <img width="30" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Hand%20with%20Fingers%20Splayed%20Light%20Skin%20Tone.png"> **Olá! Eu sou a Júlia, estudante de Tecnologia da Informação (TI), no momento estou no 2º semestre da faculdade.**
+- <img width="30" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Hand%20with%20Fingers%20Splayed%20Light%20Skin%20Tone.png"> **Olá! Eu sou a Júlia, estudante de Tecnologia da Informação (TI), no momento estou no 3º semestre da faculdade.**
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Graduation%20Cap.webp" alt="Graduation Cap" width="25" height="25" />**Atualmente, estou me especializando em desenvolvimento Back-end, com ênfase na aplicação prática de Java e no uso de tecnologias como Spring Boot e MySQL, além do estudo de estruturas de algoritmos avançadas, visando o desenvolvimento de soluções robustas e escaláveis.**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Graduation%20Cap.webp" alt="Graduation Cap" width="25" height="25" />**Atualmente, estou me especializando em desenvolvimento Back-end, com ênfase na aplicação prática de Java e no uso de tecnologias como Spring Boot e MySQL, além do estudo de lógica de programação e estruturas de dados, envolvendo o desenvolvimento de soluções robustas e escaláveis.**
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> **Busco constantemente aprimorar minhas habilidades, desenvolver projetos práticos e registrar minha evolução como programadora.**
 
@@ -47,9 +47,9 @@
 
 <div align="left">
   <a href="mailto:Juliaromeiralage@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-black?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="E-mail">
+    <img src="https://img.shields.io/badge/-Email-black?style=for-the-badge&logo=microsoft-outlook&logoColor=white"alt="E-mail">
   </a>
   <a href="https://www.linkedin.com/in/juliaromeira">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=black&logoColor=white&style=for-the-badge" alt="LinkedIn">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=black&logoColor=white&style=for-the-badge"alt="LinkedIn">
   </a>
 </div>
