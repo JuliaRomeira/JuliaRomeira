@@ -1,22 +1,55 @@
-# Júlia Danieli Romera Lage
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&weight=800&size=25&duration=5002&pause=1000&color=6A5ACD&background=2BC6FF00&width=435&lines=SEJA+BEM-VINDO(A)+AO+MEU+GITHUB!" alt="Typing SVG" /></a>
+</div>
 
-## Desenvolvimento de Software
+<p align="center">
+  <img width="550" src="https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif" alt="Gif códigos"></img>
+</p>
 
-Profissional de TI e estudante de Tecnologia da Informação na Univesp, com conclusão prevista para o 1º semestre de 2028.
+<h2 align="center"> 
+ • Back-end <img width="25" src="https://registry.npmmirror.com/@lobehub/fluent-emoji-anim-3/latest/files/assets/1f680.webp"> •
+</h2>
 
-Atuo como Suporte Técnico na Fácil Informática, com investigação de erros em sistemas ERP, suporte fiscal, consulta e correção de dados com SQL, migrações e validação de dados.
+---
 
-Construo soluções para problemas reais, incluindo o **Leve** e a **Base de Conhecimento**.
+#  **Sobre mim**
 
-### Tecnologias
+- <img width="30" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Hand%20with%20Fingers%20Splayed%20Light%20Skin%20Tone.png"> **Olá! Eu sou a Júlia, estudante de Tecnologia da Informação (TI), no momento estou no 3º semestre da faculdade.**
 
-Java · POO · SQL · TypeScript · JavaScript · React · Next.js · Node.js · Spring Boot (em aprendizado) · PostgreSQL · MySQL · Prisma · APIs REST · Git/GitHub
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Graduation%20Cap.webp" alt="Graduation Cap" width="25" height="25" />**Atualmente, estou me especializando em desenvolvimento Back-end, com ênfase na aplicação prática de Java e no uso de tecnologias como Spring Boot e MySQL, além do estudo de lógica de programação e estruturas de dados, envolvendo o desenvolvimento de soluções robustas e escaláveis.**
 
-### Projetos principais
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="25" height="25" /> **Busco constantemente aprimorar minhas habilidades, desenvolver projetos práticos e registrar minha evolução como programadora.**
 
-- [Mira Distribuidora](https://github.com/JuliaRomeira/miraf-web)
-- [Base de Conhecimento](https://github.com/JuliaRomeira/Base_de_conhecimentos)
-- [Leve](https://github.com/JuliaRomeira/leve-mp4)
-- [Portfólio](https://github.com/JuliaRomeira/portfolio-julia)
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Books.webp" alt="Books" width="25" height="25" /> **Sou apaixonada por resolver problemas, criar soluções funcionais e aprender novas tecnologias, sempre buscando aplicar conhecimento teórico na prática.**
 
-[LinkedIn](https://www.linkedin.com/in/juliaromeira)
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/People/Handshake.webp" alt="Handshake" width="25" height="25" /> **Meu objetivo é conquistar novas oportunidades profissionais, colaborar com equipes, ampliar meus conhecimentos e evoluir continuamente na área de tecnologia.**  
+
+---
+
+#  **Minhas Tecnologias**
+
+<img width="300" src="https://skillicons.dev/icons?i=java,idea,spring,mysql,git,github"/>
+
+---
+
+# **Conecte-se comigo**
+
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/juliaromeira">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="32" alt="LinkedIn">
+  </a>
+</div>
+
+---
+
+# **Entre em contato comigo** 
+
+<div align="left">
+  <a href="mailto:Juliaromeiralage@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-black?style=for-the-badge&logo=microsoft-outlook&logoColor=white"alt="E-mail">
+  </a>
+  <a href="https://www.linkedin.com/in/juliaromeira">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=black&logoColor=white&style=for-the-badge"alt="LinkedIn">
+  </a>
+</div>
