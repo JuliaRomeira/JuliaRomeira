@@ -1,0 +1,38 @@
+name: Atualizar dashboard do perfil
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - profile-dashboard-terminal
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r scripts/requirements.txt
+
+      - name: Gerar dashboard
+        env:
+          GH_PROFILE_USER: JuliaRomeira
+          PROFILE_NAME: "Júlia Danieli Romera Lage"
+        run: python scripts/profile_dashboard.py
+
+      - name: Commitar artes atualizadas
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: atualizar dashboard do perfil [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg julia-ascii.svg"
