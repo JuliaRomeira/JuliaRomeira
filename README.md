@@ -27,11 +27,7 @@
 
 ## `julia@github ~ $ cat sobre-mim.txt`
 
-Olá! Eu sou **Júlia**, estudante de **Tecnologia da Informação na Univesp**, com conclusão prevista para o **1º semestre de 2028**.
-
-Atualmente atuo com **Suporte Técnico**, trabalhando com sistemas ERP, investigação de erros, ocorrências fiscais, consultas e alterações em banco de dados com SQL, migração e validação de dados.
-
-Estou direcionando minha carreira para **Desenvolvimento de Software**, criando projetos e ferramentas para resolver problemas reais e aprofundando meus estudos em **Java, Spring Boot, SQL, TypeScript, React, Node.js, APIs REST, orientação a objetos e estruturas de dados**.
+Estudo **Tecnologia da Informação na Univesp** e trabalho com **Suporte Técnico**, atendendo sistemas ERP e banco de dados. Meu foco é **Desenvolvimento de Software**, especialmente com Java e tecnologias web.
 
 ---
 
