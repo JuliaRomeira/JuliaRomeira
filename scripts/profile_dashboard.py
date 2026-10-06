@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-import datetime, html, json, os, re
-from io import BytesIO
+import datetime, html, json, os, re, subprocess, sys
 import requests
 from bs4 import BeautifulSoup
-from PIL import Image, ImageEnhance, ImageOps
 
 USER = os.environ.get("GH_PROFILE_USER", "JuliaRomeira")
 NAME = os.environ.get("PROFILE_NAME", "Júlia Danieli Romera Lage")
@@ -125,34 +123,23 @@ def stats_svg(data):
         out.append(f'<rect x="{x:.1f}" y="{base-bh:.1f}" width="{bw:.1f}" height="{bh:.1f}" rx="3" fill="{GREEN if m["total"]==peak else BAR}"/><text x="{x+bw/2:.1f}" y="{base+25}" text-anchor="middle" fill="{MUTED}" font-size="16">{m["month"][5:]}</text>')
     out.append('</svg>'); return "".join(out)
 
-def ascii_svg():
-    url=f"https://github.com/{USER}.png?size=800"
-    r=requests.get(url,headers={"User-Agent":"profile-readme-bot/1.0"},timeout=30); r.raise_for_status()
-    im=Image.open(BytesIO(r.content)).convert("L")
-    im=ImageOps.fit(im,(160,86))
-    im=ImageEnhance.Contrast(im).enhance(1.35)
-    ramp=" .:-=+*#%@"
-    rows=[]
-    for y in range(im.height):
-        line=[]
-        for x in range(im.width):
-            lum=im.getpixel((x,y))/255
-            idx=int((1-lum)*(len(ramp)-1))
-            line.append(ramp[max(0,min(len(ramp)-1,idx))])
-        rows.append("".join(line))
-    W,H=840,880; pad=20; top=48; lineh=8.6
-    out=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"><style>@keyframes row{{from{{opacity:0}}to{{opacity:1}}}}.r{{opacity:0;animation:row .1s linear both}}@media(prefers-reduced-motion:reduce){{.r{{opacity:1!important;animation:none!important}}}}</style><rect width="{W}" height="{H}" rx="12" fill="{BG}"/><rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="12" fill="none" stroke="{FRAME}"/>']
-    for i,c in enumerate(["#ff5f56","#ffbd2e","#27c93f"]): out.append(f'<circle cx="{20+i*16}" cy="16" r="5" fill="{c}"/>')
-    out.append(f'<text x="{W/2}" y="20" text-anchor="middle" fill="{MUTED}" font-size="12">{USER.lower()}@github: ~$ ./portrait.sh</text>')
-    for i,line in enumerate(rows):
-        out.append(f'<text class="r" style="animation-delay:{i*.045:.3f}s" x="{pad}" y="{top+i*lineh:.1f}" fill="#c9d1d9" font-size="7.1" textLength="{W-pad*2}" lengthAdjust="spacing">{esc(line)}</text>')
-    out.append(f'<line x1="0" y1="820" x2="{W}" y2="820" stroke="{FRAME}"/><text x="{pad}" y="851" fill="{MUTED}" font-size="18">{USER.lower()}@github:~$ whoami <tspan fill="{TEXT}">{esc(NAME)}</tspan></text></svg>')
-    return "".join(out)
+def build_ascii_svg():
+    photo_path = os.path.join(ROOT, "source-photo.png")
+    prepped_path = os.path.join(ROOT, "source-prepped.png")
+    ascii_path = os.path.join(ROOT, "julia-ascii.svg")
+    avatar_url = f"https://github.com/{USER}.png?size=800"
+    response = requests.get(avatar_url, headers={"User-Agent":"profile-readme-bot/1.0"}, timeout=30)
+    response.raise_for_status()
+    with open(photo_path, "wb") as photo:
+        photo.write(response.content)
+    scripts_dir = os.path.dirname(__file__)
+    subprocess.run([sys.executable, os.path.join(scripts_dir, "prep_photo.py"), photo_path, prepped_path], check=True)
+    subprocess.run([sys.executable, os.path.join(scripts_dir, "make_ascii_svg.py"), prepped_path, ascii_path], check=True)
 
 if __name__=="__main__":
     days=fetch_days(); data=build_data(days)
     with open(os.path.join(DATA_DIR,"contributions.json"),"w",encoding="utf-8") as f: json.dump(data,f,ensure_ascii=False,indent=2)
     with open(os.path.join(ROOT,"contrib-heatmap.svg"),"w",encoding="utf-8") as f: f.write(heatmap(data))
     with open(os.path.join(ROOT,"stats.svg"),"w",encoding="utf-8") as f: f.write(stats_svg(data))
-    with open(os.path.join(ROOT,"julia-ascii.svg"),"w",encoding="utf-8") as f: f.write(ascii_svg())
+    build_ascii_svg()
     print("Dashboard atualizado para",USER)
