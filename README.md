@@ -43,31 +43,13 @@ Estou direcionando minha carreira para **Desenvolvimento de Software**, criando 
 
 ---
 
-## `julia@github ~ $ ls ./projetos-em-destaque`
-
-### [Mira Distribuidora](https://github.com/JuliaRomeira/miraf-web)
-Plataforma full-stack para catálogo e solicitações de cotação.
-
-`Next.js` · `React` · `TypeScript` · `PostgreSQL` · `Prisma`
-
-### [Base de Conhecimento](https://github.com/JuliaRomeira/Base_de_conhecimentos)
-Portal de documentação criado para centralizar manuais e facilitar a publicação de conteúdos.
-
-`React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Markdown` · `Decap CMS`
-
-### [Leve](https://github.com/JuliaRomeira/leve-mp4)
-Aplicação web para compactação de vídeos diretamente no navegador, sem envio dos arquivos para servidor.
-
-`JavaScript` · `HTML` · `CSS` · `WebCodecs`
-
----
-
 <div align="center">
 
 ### `julia@github ~ $ ./links.sh`
 
 **Desenvolvimento de Software · Java · Front-end · Full-stack**
 
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-Visite%20meu%20site-6e40c9?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-julia-nine.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-juliaromeira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juliaromeira)
 [![Email](https://img.shields.io/badge/Email-juliaromeralage%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juliaromeralage@gmail.com)
 
