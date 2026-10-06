@@ -124,7 +124,7 @@ def stats_svg(data):
     out.append('</svg>'); return "".join(out)
 
 def build_ascii_svg():
-    photo_path = os.path.join(ROOT, "source-photo.png")
+    photo_path = os.path.join(ROOT, "source-photo.jpg")
     prepped_path = os.path.join(ROOT, "source-prepped.png")
     ascii_path = os.path.join(ROOT, "julia-ascii.svg")
     avatar_url = f"https://github.com/{USER}.png?size=800"
