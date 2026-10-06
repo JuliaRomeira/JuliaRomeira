@@ -2,6 +2,7 @@
 """Render a prepared portrait as an animated terminal-style SVG."""
 import argparse
 import html
+import os
 from pathlib import Path
 
 import cv2
@@ -13,8 +14,8 @@ FRAME = "#30363d"
 MUTED = "#7d8590"
 TEXT = "#c9d1d9"
 GREEN = "#39d353"
-NAME = "Júlia Danieli Romera Lage"
-USER = "juliaromeira"
+NAME = os.environ.get("PROFILE_NAME", "Júlia Danieli Romera Lage")
+USER = os.environ.get("GH_PROFILE_USER", "JuliaRomeira").lower()
 RAMP = "  ..,:;irsXA253hMHGS#9B&@"
 
 
@@ -32,7 +33,10 @@ def render(source: Path, destination: Path) -> None:
         chars = []
         for value in row:
             # Slight gamma lift preserves eyes, hair, and other mid-tone detail.
-            normalized = (float(value) / 255.0) ** 0.82
+            if value < 38:
+                chars.append(" ")
+                continue
+            normalized = ((float(value) - 38.0) / (255.0 - 38.0)) ** 0.82
             index = max(0, min(ramp_size, round(normalized * ramp_size)))
             chars.append(RAMP[index])
         rows.append("".join(chars))
@@ -50,7 +54,7 @@ def render(source: Path, destination: Path) -> None:
     for i, line in enumerate(rows):
         delay = i * 0.045
         out.append(
-            f'<text class="r" style="animation-delay:{delay:.3f}s" x="{pad}" y="{top+i*line_height:.1f}" '
+            f'<text class="r" xml:space="preserve" style="animation-delay:{delay:.3f}s" x="{pad}" y="{top+i*line_height:.1f}" '
             f'fill="{TEXT}" font-size="7.1" textLength="{width-pad*2}" lengthAdjust="spacing">{html.escape(line)}</text>'
         )
     out.append(
