@@ -7,7 +7,7 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-from PIL import Image, ImageOps
+from PIL import Image
 
 BG = "#0d1117"
 FRAME = "#30363d"
@@ -21,8 +21,9 @@ RAMP = "  ..,:;irsXA253hMHGS#9B&@"
 
 def render(source: Path, destination: Path) -> None:
     image = Image.open(source).convert("RGB")
-    # Account for the narrow proportions of monospace glyphs.
-    image = ImageOps.fit(image, (160, 86), method=Image.Resampling.LANCZOS)
+    # Resize the full portrait into the ASCII grid. The monospace cell's
+    # taller-than-wide shape compensates for this horizontal pixel stretch.
+    image = image.resize((160, 86), Image.Resampling.LANCZOS)
     gray = cv2.cvtColor(np.asarray(image), cv2.COLOR_RGB2GRAY)
     gray = cv2.createCLAHE(clipLimit=1.7, tileGridSize=(8, 8)).apply(gray)
     gray = cv2.GaussianBlur(gray, (3, 3), 0.35)

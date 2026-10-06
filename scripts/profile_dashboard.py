@@ -128,10 +128,11 @@ def build_ascii_svg():
     prepped_path = os.path.join(ROOT, "source-prepped.png")
     ascii_path = os.path.join(ROOT, "julia-ascii.svg")
     avatar_url = f"https://github.com/{USER}.png?size=800"
-    response = requests.get(avatar_url, headers={"User-Agent":"profile-readme-bot/1.0"}, timeout=30)
-    response.raise_for_status()
-    with open(photo_path, "wb") as photo:
-        photo.write(response.content)
+    if not os.path.exists(photo_path):
+        response = requests.get(avatar_url, headers={"User-Agent":"profile-readme-bot/1.0"}, timeout=30)
+        response.raise_for_status()
+        with open(photo_path, "wb") as photo:
+            photo.write(response.content)
     scripts_dir = os.path.dirname(__file__)
     subprocess.run([sys.executable, os.path.join(scripts_dir, "prep_photo.py"), photo_path, prepped_path], check=True)
     subprocess.run([sys.executable, os.path.join(scripts_dir, "make_ascii_svg.py"), prepped_path, ascii_path], check=True)
