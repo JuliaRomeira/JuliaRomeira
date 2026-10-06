@@ -13,7 +13,7 @@
 <table>
 <tr>
 <td valign="top" width="50%">
-  <img src="./julia-ascii.svg" width="420" alt="Retrato ASCII da Júlia" />
+  <img src="./julia-ascii.svg?v=3031f935" width="420" alt="Retrato ASCII animado da Júlia, atualizado automaticamente" />
 </td>
 <td valign="top" width="50%">
   <img src="./stats.svg" width="420" alt="Estatísticas do GitHub da Júlia" />
