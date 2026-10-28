@@ -13,7 +13,7 @@
 <table>
 <tr>
 <td valign="top" width="50%">
-  <img src="./terminal-building.svg" width="420" alt="Computador em ASCII com aparência de terminal e cursor piscando" />
+  <img src="./terminal-building.svg" width="420" alt="Terminal de desenvolvimento com perfil e projetos de Júlia Romeira" />
 </td>
 <td valign="top" width="50%">
   <img src="./stats.svg" width="420" alt="Estatísticas do GitHub da Júlia" />
