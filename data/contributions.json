@@ -1,7 +1,7 @@
 {
   "username": "JuliaRomeira",
-  "generated_at": "2026-10-31T15:22:33.086595Z",
-  "total": 186,
+  "generated_at": "2026-11-01T16:06:04.931330Z",
+  "total": 187,
   "active_days": 49,
   "current_streak": 17,
   "longest_streak": 17,
@@ -11,10 +11,6 @@
     "level": 4
   },
   "monthly": [
-    {
-      "month": "2025-10",
-      "total": 0
-    },
     {
       "month": "2025-11",
       "total": 7
@@ -61,45 +57,14 @@
     },
     {
       "month": "2026-10",
-      "total": 104
+      "total": 105
+    },
+    {
+      "month": "2026-11",
+      "total": 0
     }
   ],
   "days": [
-    {
-      "date": "2025-10-26",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-27",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-28",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-29",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-30",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-31",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-01",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-11-02",
       "count": 0,
@@ -1917,8 +1882,13 @@
     },
     {
       "date": "2026-10-31",
-      "count": 1,
+      "count": 2,
       "level": 1
+    },
+    {
+      "date": "2026-11-01",
+      "count": 0,
+      "level": 0
     }
   ]
 }
