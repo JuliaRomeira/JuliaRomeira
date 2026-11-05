@@ -1,10 +1,10 @@
 {
   "username": "JuliaRomeira",
-  "generated_at": "2026-11-04T17:19:17.470945Z",
-  "total": 204,
-  "active_days": 52,
-  "current_streak": 20,
-  "longest_streak": 20,
+  "generated_at": "2026-11-05T17:27:31.525480Z",
+  "total": 205,
+  "active_days": 53,
+  "current_streak": 21,
+  "longest_streak": 21,
   "best_day": {
     "date": "2026-10-06",
     "count": 28,
@@ -61,7 +61,7 @@
     },
     {
       "month": "2026-11",
-      "total": 17
+      "total": 18
     }
   ],
   "days": [
@@ -1902,6 +1902,11 @@
     },
     {
       "date": "2026-11-04",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-05",
       "count": 0,
       "level": 0
     }
